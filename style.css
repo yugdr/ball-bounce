@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #6400e4;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#float-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -50px;
+    transition-property: bottom;
+    transition-duration: 2s;
+}
+
+#platform {
+    width: 100px;
+    height: 50px;
+    background: whitesmoke;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+
+#floor {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    bottom: 0;
+    position: absolute;
+}
